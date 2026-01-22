@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DAO Governance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>On-Chain DAO</h1>
+            <button id="connectBtn">Connect Wallet</button>
+        </header>
+
+        <section class="create-proposal">
+            <h2>Create Proposal</h2>
+            <input type="text" id="descInput" placeholder="Proposal Description...">
+            <button id="createBtn">Submit</button>
+        </section>
+
+        <section class="proposals">
+            <h2>Active Proposals</h2>
+            <div id="proposalList">
+                </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
